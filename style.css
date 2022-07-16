@@ -66,7 +66,7 @@ nav{
     background-repeat: no-repeat;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(0deg, rgba(255 255 255 / 54%), #8C54CC), url(../images/bg-red1.png);
+    background: linear-gradient(0deg, rgba(255 255 255 / 54%), #8C54CC), url(images/bg-red1.png);
     background-repeat:no-repeat;
     background-size: cover;
     
@@ -131,7 +131,7 @@ nav{
 
 
 .blue{
-    background-image: url(../images/bg-community-banner-1.png);
+    background-image: url(images/bg-community-banner-1.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -321,6 +321,17 @@ padding: 20px;
     flex-direction: column;
     align-items: flex-start;
     /* border: 2px solid #faa563; */
+    position: relative;
+    top: -439px;
+    right: -631px;
+}
+
+
+.rightside h4{
+    font-size: 30px;
+    color: #faa563;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
 }
 
 form{
@@ -416,7 +427,7 @@ text-decoration: none;
     justify-content: center;
     align-items: center;
    /* background-image: url(../images/bg-red.png); */
-   background: linear-gradient(0deg, rgba(255 255 255 / 54%), #8C54CC), url(../images/bg-red1.png);
+   background: linear-gradient(0deg, rgba(255 255 255 / 54%), #8C54CC), url(images/bg-red1.png);
 
    /* margin-top: 160px; */
    /* height: 90vh; */
@@ -468,7 +479,7 @@ text-decoration: none;
     border-left: 1px solid #ff8000;
     height: 200px;
     position: relative;
-    left: 40px;
+    left: 30px;
     top: 60px;
     /* margin-left: -90px; */
 }
@@ -501,11 +512,15 @@ text-decoration: none;
 #center a {
     background-color:transparent;
     border: 1px solid #ff8000;
-    color: white;
+    color: rgb(12, 12, 12);
     padding: 5px;
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
+   position: relative;
+   top: 100px;
+
 }
+
 #center a:hover{
     background-color: #ff8000;
     color: white;
@@ -742,7 +757,7 @@ ul li a:hover{
 
 
     
-@media only screen and (max-width:729px){
+@media only screen and (max-width:800px){
 
 
 nav {
@@ -930,6 +945,7 @@ padding: 10px;
     margin-left: 20px;
     font-size: 15px;
     text-align: center;
+    position: static;
 }
 
 .inside .left {
