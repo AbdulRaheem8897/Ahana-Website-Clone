@@ -311,7 +311,7 @@ padding: 20px;
     font-family: 'Montserrat', sans-serif;
 }
 #twotwo{
-    margin-left: -120px;
+   
     transform: rotate(10deg);
 }
 
@@ -756,16 +756,20 @@ ul li a:hover{
 
 
 
-    
+#hide{
+    display: none;
+}
 @media only screen and (max-width:800px){
 
-
+    #hide{
+        display: block;
+    }
 nav {
-flex-direction: column;
+flex-direction: row;
 }
-nav ul li a {
+nav ul  {
 
-    
+    display: none;
     font-size: 10px;
 }
 
@@ -971,8 +975,9 @@ padding: 10px;
     position: relative;
     bottom: 71px;
     right: -240px;
-    display:none;
-    
+    display: none;
+width: 100px;
+
     
 
 }
